@@ -1,0 +1,83 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  background-color: lightgray;
+}
+
+h1,
+h2 {
+  margin: 0;
+  background-color: darkslategray;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding: 1rem 0 0;
+}
+
+h2 {
+  padding: 0 0 1.5rem;
+  font-size: 1rem;
+  border-radius: 0 0 2rem 2rem;
+}
+
+h3 {
+  padding: 1rem 2rem 0;
+  font-size: 1.4rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+}
+
+button {
+  font-size: 1rem;
+  flex-basis: 9rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: darkslategray;
+  border: 0;
+  border-radius: 1rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+}
+
+li {
+  padding: 1rem;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  flex-basis: 20rem;
+  text-align: start;
+}
+
+h4 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+p {
+  float: right;
+}
+
+span {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
